@@ -3,6 +3,8 @@ A simple path description format to allow selection from a table and subtables. 
 
 Used in our MCP tools as a way for LLM to request rows/columns and subtables in a structured manner. More constrained than SQL, and has special nuances we require. Human readable, but fixed structure for LLM generation.
 
+The syntax and grammar documents were written by LLM under human design guidance.  The primary audience of these documents is LLM
+
 ## Using
 
 Paste the spec into your favorite AI, and ask it to generate a parser in whatever language you want.
